@@ -1,0 +1,90 @@
+.mainDiv{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: beige;
+}
+
+.childDiv{
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 1vh;
+  height: 60vh;
+  text-align: center;
+  position: relative;
+  top: 20vh;
+}
+
+#input{
+  width: 70%;
+  height: 5vh;
+  border-radius: 0.5vh;
+  outline: none;
+  border: 1px solid lightgray;
+  position: relative;
+  top: 5vh;
+  font-weight: bold;
+}
+#input::placeholder{
+  color: gray;
+  position: relative;
+  left: 4vh;
+  font-weight: bold;
+}
+
+#input:hover{
+   border: 2px solid #A020F0;
+   
+}
+
+#icon{
+  font-weight: bold;
+  left: 75%;
+  position: absolute;
+  top: 26.5%;
+}
+#icon{
+  font-weight: bold;
+  left: 75%;
+  position: absolute;
+  top: 26.5%;
+}
+
+.si{
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  overflow: scroll;
+  top: 10vh;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.eachItem{
+  width: 70%;
+  height: 6vh;
+  background-color: beige;
+  box-shadow: 0 0 1px lightgray;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  position: absolute;
+  left: 15%;
+  display: flex;
+  overflow: scroll;
+}
+
+#name{
+  text-transform: uppercase;
+  color: white;
+  -webkit-text-stroke: 0.8px  black;
+}
+
+#reicon{
+  position: relative;
+  left: 15vh;
+}
